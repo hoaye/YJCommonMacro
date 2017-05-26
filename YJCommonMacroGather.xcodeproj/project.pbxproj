@@ -26,6 +26,7 @@
 		6375CBD71ED82B1100844E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6375CBDA1ED82B1100844E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6375CBDC1ED82B1100844E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6375CBE31ED82FD500844E54 /* YJCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		6375CBBF1ED82B1100844E54 = {
 			isa = PBXGroup;
 			children = (
+				6375CBE21ED82FC400844E54 /* YJCommonMacro */,
 				6375CBCA1ED82B1100844E54 /* YJCommonMacroGather */,
 				6375CBC91ED82B1100844E54 /* Products */,
 			);
@@ -77,6 +79,14 @@
 				6375CBCC1ED82B1100844E54 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6375CBE21ED82FC400844E54 /* YJCommonMacro */ = {
+			isa = PBXGroup;
+			children = (
+				6375CBE31ED82FD500844E54 /* YJCommonMacro.h */,
+			);
+			path = YJCommonMacro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +326,7 @@
 				6375CBE11ED82B1100844E54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
