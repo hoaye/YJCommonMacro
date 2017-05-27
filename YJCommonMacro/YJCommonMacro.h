@@ -9,6 +9,7 @@
 #ifndef YJCommonMacro_h
 #define YJCommonMacro_h
 
+#ifdef __OBJC__
 //------------------- 获取设备大小 -------------------------
 #define kSCREEN_WIDTH  (UIScreen mainScreen].bounds.size.width)
 #define kSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
@@ -209,5 +210,6 @@ return self; \
 /** 清除背景色 */
 #define kCLEARCOLOR [UIColor clearColor]
 
+#endif /////// objc
 
 #endif /* YJCommonMacro_h */
