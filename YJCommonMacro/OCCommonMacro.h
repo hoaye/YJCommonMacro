@@ -1,13 +1,13 @@
 //
-//  YJCommonMacro.h
+//  OCCommonMacro.h
 //  YJCommonMacroGather
 //
-//  Created by YJHou on 2017/2/16.
+//  Created by YJHou on 2017/1/4.
 //  Copyright © 2017年 YJHou. All rights reserved.
-//  iOS 开发常用的宏
+//  iOS ObJective-C 开发常用的宏
 
-#ifndef YJCommonMacro_h
-#define YJCommonMacro_h
+#ifndef OCCommonMacro_h
+#define OCCommonMacro_h
 
 #ifdef __OBJC__
 //------------------- 获取设备大小 -------------------------
@@ -16,7 +16,6 @@
 
 #define kNAVIGATION_BAR_HEIGHT   64.0f
 #define kSTATUS_BAR_HEIGHT       20.0f
-
 
 //////////// 版本 /////////////
 #define kSYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
@@ -203,13 +202,13 @@ return self; \
 #define kCOLOR(R, G, B, A) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:A]
 
 /** 随机色 */
-#define kRandomColor [UIColor colorWithRed:((arc4random() % 255) / 255.0) green:((arc4random() % 255) / 255.0) blue:((arc4random() % 255) / 255.0) alpha:1]
+#define kRANDOM_COLOR [UIColor colorWithRed:((arc4random() % 255) / 255.0) green:((arc4random() % 255) / 255.0) blue:((arc4random() % 255) / 255.0) alpha:1]
 
 /** 背景色 */
 #define kBACKGROUND_COLOR [UIColor colorWithRed:242.0/255.0 green:236.0/255.0 blue:231.0/255.0 alpha:1.0]
 /** 清除背景色 */
-#define kCLEARCOLOR [UIColor clearColor]
+#define kCLEAR_COLOR [UIColor clearColor]
 
 #endif /////// objc
 
-#endif /* YJCommonMacro_h */
+#endif /* OCCommonMacro_h */
