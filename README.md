@@ -42,7 +42,7 @@ iOS Objective-C 开发常用的宏
 
 ```objc
 //------------------- 获取设备大小 -------------------------
-#define kSCREEN_WIDTH  (UIScreen mainScreen].bounds.size.width)
+#define kSCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)
 #define kSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
 #define kNAVIGATION_BAR_HEIGHT   64.0f

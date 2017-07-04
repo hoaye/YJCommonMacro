@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "63938AEE1F0B3C2E005BD255"
-               BuildableName = "OCCommonMacroFramework.framework"
+               BuildableName = "OCCommonMacro.framework"
                BlueprintName = "OCCommonMacroFramework"
                ReferencedContainer = "container:YJCommonMacroGather.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63938AEE1F0B3C2E005BD255"
-            BuildableName = "OCCommonMacroFramework.framework"
+            BuildableName = "OCCommonMacro.framework"
             BlueprintName = "OCCommonMacroFramework"
             ReferencedContainer = "container:YJCommonMacroGather.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "63938AEE1F0B3C2E005BD255"
-            BuildableName = "OCCommonMacroFramework.framework"
+            BuildableName = "OCCommonMacro.framework"
             BlueprintName = "OCCommonMacroFramework"
             ReferencedContainer = "container:YJCommonMacroGather.xcodeproj">
          </BuildableReference>
