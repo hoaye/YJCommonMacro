@@ -6,6 +6,10 @@
 //  Copyright © 2017年 YJHou. All rights reserved.
 //  iOS ObJective-C 开发常用的宏
 
+/**
+    当前版本: 0.0.3
+ */
+
 #ifndef OCCommonMacro_h
 #define OCCommonMacro_h
 
