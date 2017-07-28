@@ -1,4 +1,4 @@
-version = "0.0.4";
+version = "0.0.5";
 
 Pod::Spec.new do |s|
 
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     s.homepage     = "https://github.com/YJManager/YJCommonMacro"
     s.license      = { :type => "MIT", :file => "LICENSE" }
     s.author       = { "houmanager" => "houmanager@Hotmail.com" }
-    s.platform     = :ios, "7.0"
+    s.platform     = :ios, "8.0"
     s.source       = { :git => "https://github.com/YJManager/YJCommonMacro.git", :tag => "#{version}"}
     s.source_files  = "YJCommonMacro/*.{h,m}"
     s.requires_arc = true

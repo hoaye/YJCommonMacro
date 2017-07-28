@@ -7,7 +7,7 @@
 //  iOS ObJective-C 开发常用的宏
 
 /**
-    当前版本: 0.0.4
+    当前版本: 0.0.5
  */
 
 #ifndef OCCommonMacro_h
@@ -20,6 +20,7 @@
 
 #define kNAVIGATION_BAR_HEIGHT   64.0f
 #define kSTATUS_BAR_HEIGHT       20.0f
+#define kTAB_BAR_HEIGHT       49.0f
 
 //////////// 版本 /////////////
 #define kSYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
@@ -58,11 +59,11 @@
 #   define YJLog(...)
 #endif
 
-//重写NSLog,Debug模式下打印日志和当前行数
+// COLog,Debug模式下打印日志和当前行数
 #if DEBUG
-#define NSLog(FORMAT, ...) fprintf(stderr,"Function:%s Line:%d\n Content:%s\n\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#define COLog(FORMAT, ...) fprintf(stderr,"Function:%s Line:%d\n Content:%s\n\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
 #else
-#define NSLog(FORMAT, ...) nil
+#define COLog(FORMAT, ...) nil
 #endif
 
 //DEBUG  模式下打印日志,当前行 并弹出一个警告
