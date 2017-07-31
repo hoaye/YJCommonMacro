@@ -7,7 +7,7 @@
 //  iOS ObJective-C 开发常用的宏
 
 /**
-    当前版本: 0.0.5
+    当前版本: 0.0.6
  */
 
 #ifndef OCCommonMacro_h
@@ -18,9 +18,10 @@
 #define kSCREEN_WIDTH  ([UIScreen mainScreen].bounds.size.width)
 #define kSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
 
-#define kNAVIGATION_BAR_HEIGHT   64.0f
-#define kSTATUS_BAR_HEIGHT       20.0f
-#define kTAB_BAR_HEIGHT       49.0f
+#define kNAVIGATION_BAR_HEIGHT  64.0f
+#define kSTATUS_BAR_HEIGHT      20.0f
+#define kTAB_BAR_HEIGHT         49.0f
+#define kMINFLOAT                0.000001
 
 //////////// 版本 /////////////
 #define kSYSTEM_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
