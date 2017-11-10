@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		635F28821FB54BD700B2D1BF /* YJCommonVerification.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F287C1FB54BD700B2D1BF /* YJCommonVerification.h */; };
+		635F28831FB54BD700B2D1BF /* YJCommonColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F287D1FB54BD700B2D1BF /* YJCommonColor.h */; };
+		635F28841FB54BD700B2D1BF /* YJCommonLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F287E1FB54BD700B2D1BF /* YJCommonLogging.h */; };
+		635F28851FB54BD700B2D1BF /* YJCommonSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F287F1FB54BD700B2D1BF /* YJCommonSize.h */; };
+		635F28861FB54BD700B2D1BF /* YJCommonFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F28801FB54BD700B2D1BF /* YJCommonFont.h */; };
+		635F28871FB54BD700B2D1BF /* YJCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F28811FB54BD700B2D1BF /* YJCommonMacro.h */; };
+		635F28891FB54DCD00B2D1BF /* YJCommonTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 635F28881FB54DCD00B2D1BF /* YJCommonTools.h */; };
 		6375CBCD1ED82B1100844E54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CBCC1ED82B1100844E54 /* main.m */; };
 		6375CBD01ED82B1100844E54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CBCF1ED82B1100844E54 /* AppDelegate.m */; };
 		6375CBD31ED82B1100844E54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375CBD21ED82B1100844E54 /* ViewController.m */; };
@@ -15,8 +22,6 @@
 		6375CBDB1ED82B1100844E54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6375CBD91ED82B1100844E54 /* LaunchScreen.storyboard */; };
 		63938AF61F0B3C2E005BD255 /* OCCommonMacro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63938AEF1F0B3C2E005BD255 /* OCCommonMacro.framework */; };
 		63938AF71F0B3C2E005BD255 /* OCCommonMacro.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63938AEF1F0B3C2E005BD255 /* OCCommonMacro.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		63938AFC1F0B3C41005BD255 /* OCCommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 63938AE91F0B3B85005BD255 /* OCCommonMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63938AFD1F0B3C48005BD255 /* OCCommonMacro.h in Sources */ = {isa = PBXBuildFile; fileRef = 63938AE91F0B3B85005BD255 /* OCCommonMacro.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		635F287C1FB54BD700B2D1BF /* YJCommonVerification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonVerification.h; sourceTree = "<group>"; };
+		635F287D1FB54BD700B2D1BF /* YJCommonColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonColor.h; sourceTree = "<group>"; };
+		635F287E1FB54BD700B2D1BF /* YJCommonLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonLogging.h; sourceTree = "<group>"; };
+		635F287F1FB54BD700B2D1BF /* YJCommonSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonSize.h; sourceTree = "<group>"; };
+		635F28801FB54BD700B2D1BF /* YJCommonFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonFont.h; sourceTree = "<group>"; };
+		635F28811FB54BD700B2D1BF /* YJCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJCommonMacro.h; sourceTree = "<group>"; };
+		635F28881FB54DCD00B2D1BF /* YJCommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YJCommonTools.h; sourceTree = "<group>"; };
 		6375CBC81ED82B1100844E54 /* YJCommonMacroGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJCommonMacroGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6375CBCC1ED82B1100844E54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6375CBCE1ED82B1100844E54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,7 +66,6 @@
 		6375CBD71ED82B1100844E54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6375CBDA1ED82B1100844E54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6375CBDC1ED82B1100844E54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63938AE91F0B3B85005BD255 /* OCCommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCCommonMacro.h; sourceTree = "<group>"; };
 		63938AEF1F0B3C2E005BD255 /* OCCommonMacro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCCommonMacro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63938AF11F0B3C2E005BD255 /* OCCommonMacroFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCCommonMacroFramework.h; sourceTree = "<group>"; };
 		63938AF21F0B3C2E005BD255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -125,7 +136,13 @@
 		6375CBE21ED82FC400844E54 /* YJCommonMacro */ = {
 			isa = PBXGroup;
 			children = (
-				63938AE91F0B3B85005BD255 /* OCCommonMacro.h */,
+				635F287D1FB54BD700B2D1BF /* YJCommonColor.h */,
+				635F28801FB54BD700B2D1BF /* YJCommonFont.h */,
+				635F287E1FB54BD700B2D1BF /* YJCommonLogging.h */,
+				635F28811FB54BD700B2D1BF /* YJCommonMacro.h */,
+				635F287F1FB54BD700B2D1BF /* YJCommonSize.h */,
+				635F287C1FB54BD700B2D1BF /* YJCommonVerification.h */,
+				635F28881FB54DCD00B2D1BF /* YJCommonTools.h */,
 			);
 			path = YJCommonMacro;
 			sourceTree = "<group>";
@@ -146,7 +163,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63938AFC1F0B3C41005BD255 /* OCCommonMacro.h in Headers */,
+				635F28851FB54BD700B2D1BF /* YJCommonSize.h in Headers */,
+				635F28871FB54BD700B2D1BF /* YJCommonMacro.h in Headers */,
+				635F28891FB54DCD00B2D1BF /* YJCommonTools.h in Headers */,
+				635F28821FB54BD700B2D1BF /* YJCommonVerification.h in Headers */,
+				635F28861FB54BD700B2D1BF /* YJCommonFont.h in Headers */,
+				635F28841FB54BD700B2D1BF /* YJCommonLogging.h in Headers */,
+				635F28831FB54BD700B2D1BF /* YJCommonColor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = YJHou;
+				ORGANIZATIONNAME = "https://github.com/stackhou ";
 				TargetAttributes = {
 					6375CBC71ED82B1100844E54 = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -265,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63938AFD1F0B3C48005BD255 /* OCCommonMacro.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +519,7 @@
 				63938AFA1F0B3C2E005BD255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
