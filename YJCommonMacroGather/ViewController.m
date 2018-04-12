@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "YJCommonLogging.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    YJLog(@"---");
+    COLog(@"+++");
     
 }
 
